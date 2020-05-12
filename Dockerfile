@@ -21,4 +21,4 @@ USER 1001
 
 EXPOSE 3310
 
-CMD [ "clamd -c /etc/clamd.conf" ]
+CMD [ "which clamd" ]
