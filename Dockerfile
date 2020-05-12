@@ -21,4 +21,4 @@ USER 1001
 
 EXPOSE 3310
 
-CMD [ "which clamd" ]
+CMD [ "ls -lah /etc && clamd" ]
